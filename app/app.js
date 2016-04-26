@@ -9,10 +9,10 @@ angular.module('scheduleApp', ['firebase'])
 
 	$scope.reset = function() {
 		fb.$set({
-			monday: {
+			001: {
 				name: "Monday",
 				slots: {
-					0900: {
+					0090: {
 						time: '9:00am',
 						booked: false
 					},
@@ -42,10 +42,10 @@ angular.module('scheduleApp', ['firebase'])
 					}
 				}
 			},
-			tuesday: {
+			002: {
 				name: "Tuesday",
 				slots: {
-					0900: {
+					0090: {
 						time: '9:00am',
 						booked: false
 					},
@@ -75,10 +75,76 @@ angular.module('scheduleApp', ['firebase'])
 					}
 				}
 			},
-			wednesday: {
+			003: {
 				name: "Wednesday",
 				slots: {
-					0900: {
+					0090: {
+						time: '9:00am',
+						booked: false
+					},
+					0100: {
+						time: '10:00am',
+						booked: false
+					},
+					0110: {
+						time: '11:00am',
+						booked: false
+					},
+					0120: {
+						time: '12:00pm',
+						booked: false
+					},
+					0130: {
+						time: '1:00pm',
+						booked: false
+					},
+					0140: {
+						time: '2:00pm',
+						booked: false
+					},
+					0150: {
+						time: '3:00pm',
+						booked: false
+					}
+				}
+			},
+			004: {
+				name: "Tuesday",
+				slots: {
+					0090: {
+						time: '9:00am',
+						booked: false
+					},
+					0100: {
+						time: '10:00am',
+						booked: false
+					},
+					0110: {
+						time: '11:00am',
+						booked: false
+					},
+					0120: {
+						time: '12:00pm',
+						booked: false
+					},
+					0130: {
+						time: '1:00pm',
+						booked: false
+					},
+					0140: {
+						time: '2:00pm',
+						booked: false
+					},
+					0150: {
+						time: '3:00pm',
+						booked: false
+					}
+				}
+			},
+			005: {
+				name: "Wednesday",
+				slots: {
+					0090: {
 						time: '9:00am',
 						booked: false
 					},
