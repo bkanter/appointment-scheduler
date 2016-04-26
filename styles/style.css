@@ -1,0 +1,38 @@
+/* Checkbox - each time slot */
+.time-slot {  
+
+}
+
+/* Hide the checkbnox itself - the label will be styled */
+.time-slot input {
+	display: none;
+}
+
+/*Default styling for our labels */
+.time-slot label {
+	padding: 10px 20px;
+	color: #FFFFFF;
+	cursor: pointer;
+	background: #EEEEEE;
+	border-radius: 5px;
+	transition: 0.3s ease all;
+}
+
+/*If the label is not checked */
+.time-slot input:not(:checked) ~ label {
+	background: #6AB074;
+	animation: flashAvailable 0.5s ease;
+}
+
+/* animation for the time slot fo flash red */
+
+@keyframes flashBooked {
+	o%, 100% { background: #F2DEDE; transform: scale(1); }
+	50% { background: #F99090; transform: scale(1.5); }
+}
+
+/* animation for the time slot to flash green */
+@keyframes flashAvailable {
+	0%, 100% { background: #6AB074; transform:scale(1); }
+	50% { background: rgb(119, 218, 78); transform: scale(1.5); }
+}
