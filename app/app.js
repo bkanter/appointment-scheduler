@@ -15,8 +15,28 @@ angular.module('scheduleApp', ['firebase'])
 						time: '9:00am',
 						booked: false
 					},
+					0100: {
+						time: '10:00am',
+						booked: false
+					},
 					0110: {
 						time: '11:00am',
+						booked: false
+					},
+					0120: {
+						time: '12:00pm',
+						booked: false
+					},
+					0130: {
+						time: '1:00pm',
+						booked: false
+					},
+					0140: {
+						time: '2:00pm',
+						booked: false
+					},
+					0150: {
+						time: '3:00pm',
 						booked: false
 					}
 				}
@@ -27,8 +47,124 @@ angular.module('scheduleApp', ['firebase'])
 						time: '9:00am',
 						booked: false
 					},
+					0100: {
+						time: '10:00am',
+						booked: false
+					},
 					0110: {
 						time: '11:00am',
+						booked: false
+					},
+					0120: {
+						time: '12:00pm',
+						booked: false
+					},
+					0130: {
+						time: '1:00pm',
+						booked: false
+					},
+					0140: {
+						time: '2:00pm',
+						booked: false
+					},
+					0150: {
+						time: '3:00pm',
+						booked: false
+					}
+				}
+			},
+			wednesday: {
+				slots: {
+					0900: {
+						time: '9:00am',
+						booked: false
+					},
+					0100: {
+						time: '10:00am',
+						booked: false
+					},
+					0110: {
+						time: '11:00am',
+						booked: false
+					},
+					0120: {
+						time: '12:00pm',
+						booked: false
+					},
+					0130: {
+						time: '1:00pm',
+						booked: false
+					},
+					0140: {
+						time: '2:00pm',
+						booked: false
+					},
+					0150: {
+						time: '3:00pm',
+						booked: false
+					}
+				}
+			},
+			thursday: {
+				slots: {
+					0900: {
+						time: '9:00am',
+						booked: false
+					},
+					0100: {
+						time: '10:00am',
+						booked: false
+					},
+					0110: {
+						time: '11:00am',
+						booked: false
+					},
+					0120: {
+						time: '12:00pm',
+						booked: false
+					},
+					0130: {
+						time: '1:00pm',
+						booked: false
+					},
+					0140: {
+						time: '2:00pm',
+						booked: false
+					},
+					0150: {
+						time: '3:00pm',
+						booked: false
+					}
+				}
+			},
+			friday: {
+				slots: {
+					0900: {
+						time: '9:00am',
+						booked: false
+					},
+					0100: {
+						time: '10:00am',
+						booked: false
+					},
+					0110: {
+						time: '11:00am',
+						booked: false
+					},
+					0120: {
+						time: '12:00pm',
+						booked: false
+					},
+					0130: {
+						time: '1:00pm',
+						booked: false
+					},
+					0140: {
+						time: '2:00pm',
+						booked: false
+					},
+					0150: {
+						time: '3:00pm',
 						booked: false
 					}
 				}
