@@ -10,6 +10,7 @@ angular.module('scheduleApp', ['firebase'])
 	$scope.reset = function() {
 		fb.$set({
 			monday: {
+				name: "Monday",
 				slots: {
 					0900: {
 						time: '9:00am',
@@ -42,6 +43,7 @@ angular.module('scheduleApp', ['firebase'])
 				}
 			},
 			tuesday: {
+				name: "Tuesday",
 				slots: {
 					0900: {
 						time: '9:00am',
@@ -74,6 +76,7 @@ angular.module('scheduleApp', ['firebase'])
 				}
 			},
 			wednesday: {
+				name: "Wednesday",
 				slots: {
 					0900: {
 						time: '9:00am',
@@ -106,6 +109,7 @@ angular.module('scheduleApp', ['firebase'])
 				}
 			},
 			thursday: {
+				name: "Thursday",
 				slots: {
 					0900: {
 						time: '9:00am',
@@ -138,6 +142,7 @@ angular.module('scheduleApp', ['firebase'])
 				}
 			},
 			friday: {
+				name: "Friday",
 				slots: {
 					0900: {
 						time: '9:00am',
