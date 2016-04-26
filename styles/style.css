@@ -3,6 +3,10 @@
 
 }
 
+.time-column {
+	margin: auto 1.2%;
+}
+
 /* Hide the checkbnox itself - the label will be styled */
 .time-slot input {
 	display: none;
